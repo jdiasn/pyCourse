@@ -18,6 +18,7 @@
 #
 # import os
 # import sys
+import sphinx_rtd_theme
 # sys.path.insert(0, os.path.abspath('.'))
 
 
@@ -34,6 +35,8 @@ extensions = ['sphinx.ext.mathjax']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
+html_theme = "sphinx_rtd_theme"
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
