@@ -8,7 +8,9 @@ Welcome to pyCourse's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+
+   README
+   Basemap   
 
 
 
