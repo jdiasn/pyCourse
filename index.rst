@@ -10,9 +10,12 @@ Welcome to pyCourse's documentation!
    :maxdepth: 2
 
    README
-   Basemap   
-
-
+   Begin 
+   Numpy
+   Pandas
+   Matplotlib
+   Basemap
+   
 
 Indices and tables
 ==================
