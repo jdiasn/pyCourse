@@ -2,8 +2,6 @@
 The Begin
 =========
 
-
-
 In Python the variables are dynamically typed, meaning that Python identifies the kind of 
 variable by itself. Here is a list of the most basic types: 
 
