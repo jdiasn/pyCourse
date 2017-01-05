@@ -111,7 +111,7 @@ Boolean
    >>> type(a)
    <type 'bool'>
    >>> type(b)
-  <type 'bool'>
+   <type 'bool'>
 
 
 Other types
