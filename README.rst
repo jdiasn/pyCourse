@@ -47,7 +47,7 @@ After to run it, the following message will appear
    [I 22:45:52.397 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/
    [I 22:45:52.398 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 
-end the browser will show a new tab like this 
+and the browser will show a new tab like this 
 
 .. figure:: jupyter.png
    :height: 982px
