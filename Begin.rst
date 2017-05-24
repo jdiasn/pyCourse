@@ -39,7 +39,7 @@ Types
 The numbers are usually represented by the types below.
 
 Integer 
-
+~~~~~~~
 .. code-block:: python
 
    >>> a = 11
@@ -48,7 +48,7 @@ Integer
 
 
 Float
-
+~~~~~
 .. code-block:: python
 
    >>> a = 11.
@@ -56,7 +56,7 @@ Float
    <type 'float'>
 
 Complex
-
+~~~~~~~
 .. code-block:: python
 
    >>>  a = 11 + 3j  
@@ -92,9 +92,9 @@ examples.
    >>> 
 
 There is two special types
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 NoneType
-
+~~~~~~~~
 .. code-block:: python
 
    >>> a = None
@@ -102,7 +102,7 @@ NoneType
    <type 'NoneType'>
 
 Boolean
-
+~~~~~~~
 .. code-block:: python
 
    >>> a = False
@@ -115,8 +115,12 @@ Boolean
 
 
 Other types
+~~~~~~~~~~~
 
 String
+~~~~~~
+
+Strings are the objects used to work with text, and those are sequence. 
 
 .. code-block:: python
 
@@ -163,6 +167,9 @@ At this point, it is useful to introduce the function *dir()*.
 
 
 List
+~~~~
+
+List are sequence of things.
 
 .. code-block:: python
 
@@ -192,18 +199,79 @@ Some operations with list
    >>> c.remove('alunos')
    >>> c
    ['fogo', 'cptec', 'car', 'agua', '5', 4, 3, 2, 1]
+   >>>
+   >>> a = 'meteorologia'
+   >>>
+   >>> a[5]
+   'r'
+   >>> a[-4]
+   'o'
+   >>> a[0:7]
+   'meteoro'
+   >>> a[-12:-5]
+   'meteoro'
+   >>> a[7:]
+   'logia'
+   >>> a[-5:]
+   'logia'
+   >>> a[0::2]
+   'mtoooi'
 
 
 Tuples
+~~~~~~
 
- 
+Tuples are sequence, but they are immutable.
+
+.. code-block:: python
+
+   >>> a = ('water', 'fire', 4)
+   >>> type(a)
+   <type 'tuple'>
+
+Some operations with tuples.
+
+.. code-block:: python
+
+   >>> a = ('water', 'fire', 4)
+   >>>
+   >>> a[1]
+   'fire'
+   >>> a[1] = 2
+   Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>
+   TypeError: 'tuple' object does not support item assignment
+   >>>
+   >>> c, d, f = a
+   >>> c
+   'water'
+   >>> d
+   'fire'
+   >>> f
+   4
+   >>> 
+
 Dictionaries
+~~~~~~~~~~~~
+
+Dictionaries are collections of elements, but it is referenced by keys.
+
+.. code-block:: python
+
+   >>> student = {'name':'Jose Dias', 'course':'python', 'day': 1 }
+   >>> type(student)
+   <type 'dict'>
+
+
+.. code-block:: python
+
+   >>> student = {'name':'Jose Dias', 'course':'python', 'day': 1 }
 
 
 
 
 
-
-
+Exercises  
+---------
 
 
